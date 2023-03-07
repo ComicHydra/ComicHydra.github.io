@@ -22,6 +22,6 @@ h1{color: blue;}
 .physics{background-color: yellow;}
 .english{background-color: blue;}
 .general{background-color: orange;}
-#Pseudo{width: 100px; height: 50px; text-align: center; background-color: green;}
-#Pseudo:hover{background-color: blue;}
-#Pseudo:active{background-color: red;}
+#pseudo{width: 100px; height: 50px; text-align: center; background-color: green;}
+#pseudo:hover{background-color: blue;}
+#pseudo:active{background-color: red;}
