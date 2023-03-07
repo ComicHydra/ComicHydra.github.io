@@ -2,7 +2,7 @@ header{background-color: green; text-align: center; padding: 10px; font-size: 25
 nav{background-color: lightgrey; padding:10px; font-size: 125%; margin: 10px;}
 #navbar{padding: 10px;}
 #section{width: 50%; float: left;}
-img{ height: 450px; width: 450px;}
+img{ height: 400px; width: 400px;}
 th, td{border: 1px solid black; padding: 4px;}
 footer{padding: 5px; font-size: 150%; font-weight: bold; text-align: center;}
 table{border-collapse: collapse;}
@@ -22,6 +22,6 @@ h1{color: blue;}
 .physics{background-color: yellow;}
 .english{background-color: blue;}
 .general{background-color: orange;}
-#pseudo{width: 100px; height: 50px; background-color: green;}
+#pseudo{width: 100px; height: 50px; background-color: green; text-align: center;}
 #pseudo:hover{background-color: blue;}
 #pseudo:active{background-color: red;}
