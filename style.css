@@ -1,7 +1,7 @@
 header{background-color: green; text-align: center; padding: 10px; font-size: 250%; color: white; font-weight: bold; font-style: italic;}
 nav{background-color: lightgrey; padding:10px; font-size: 125%; margin: 10px;}
 #navbar{padding: 10px;}
-div{width: 50%; float: left;}
+#Section{width: 50%; float: left;}
 img{ height: 450px; width: 450px;}
 th, td{border: 1px solid black; padding: 4px;}
 footer{text-align: center;padding: 5px; font-size: 150%; font-weight: bold;}
