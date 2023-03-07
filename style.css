@@ -4,7 +4,7 @@ nav{background-color: lightgrey; padding:10px; font-size: 125%; margin: 10px;}
 #section{width: 50%; float: left;}
 img{ height: 450px; width: 450px;}
 th, td{border: 1px solid black; padding: 4px;}
-footer{text-align: center;padding: 5px; font-size: 150%; font-weight: bold;}
+footer{padding: 5px; font-size: 150%; font-weight: bold;}
 table{border-collapse: collapse;}
 #Tag{width: 15%;}
 ul{list-style-type: square;}
