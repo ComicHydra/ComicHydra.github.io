@@ -9,15 +9,25 @@
 </head>
 <body>
     <header>Stuff I Should Know About HTML</header>
-    <nav>
+    <nav id="nav">
         <a id="navbar" href="index.html">Home Page</a>
         <a id="navbar" href="Lists.html">Ordered Lists Task</a>
         <a id="navbar" href="UnLists.html">Unordered Lists Task</a>
         <a id="navbar" href="Tables.html">Tables Task</a>
         <a id="navbar" href="Positioning.html">Positioning Task</a>
     </nav>
-    <div id="section">
-        <table>
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="#Table">Knowledge Table</a></li>
+                <li><a href="#Image">W3schools</a></li>
+                <li><a href="#pseudo">W3schools Link</a></li>
+                <li><a href="#Footer">Footer</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <section>
+        <table id="Table">
             <tr>
                 <th>Tag</th>
                 <th>Use</th>
@@ -71,13 +81,11 @@
                 <td>The footer of a website, the section at the very bottom</td>
             </tr>
         </table>
-    </div>
-    <div id="section">
-        <img src="w3schools.png">
+        <img src="w3schools.png" id="Image">
         <a href="https://www.w3schools.com/" target="_blank"><div id="pseudo">W3schools Link</div></a>
-    </div>
+    </section>
     <footer>
-        <a href="https://play.pokemonshowdown.com/" target="_blank">For when I've finished the days work</a>
+        <a href="https://play.pokemonshowdown.com/" target="_blank" id="Footer">For when I've finished the days work</a>
     </footer>
 </body>
 </html>
