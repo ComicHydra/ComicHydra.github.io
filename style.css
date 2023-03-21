@@ -1,6 +1,7 @@
 header{background-color: green; text-align: center; padding: 10px; font-size: 250%; color: white; font-weight: bold; font-style: italic;}
-#nav{background-color: lightgrey; padding:10px; font-size: 125%; margin: 10px; position: sticky; top: 0;}
-#navbar{padding: 10px;}
+#nav{background-color: grey; padding:10px; font-size: 125%; margin: 10px; position: sticky; top: 0;}
+#navbar{padding: 10px; text-decoration: none; color: blue;}
+#navbar:hover{background-color: lightgray;}
 img{height: 300px; width: 300px;}
 th, td{border: 1px solid black; padding: 4px;}
 footer{padding: 5px; font-size: 150%; font-weight: bold; text-align: center;}
@@ -29,5 +30,9 @@ h1{color: blue;}
 .inner2{width: 100px; height: 100px; border: 2px solid green; position: fixed; bottom: 100px;}
 .inner3{width: 100px; height: 100px; border: 2px solid yellow; position: absolute; left: 100px;}
 .inner4{width: 100px; height: 100px; border: 2px solid orange; position: sticky; right: 100px;}
-aside{width: 15%; float: left; position: sticky; top: 15px;}
+aside{width: 15%; float: left; position: sticky; top: 45px;}
 section{width: 85%; float: left;}
+#lia{display: block; padding: 5px; text-decoration: none; color: blue; font-size: 18px;}
+#vertnav{list-style: none; margin: 0; padding: 10px;background-color: lightgrey;}
+#navvert{padding: 10px;}
+#lia:hover{background-color: grey;}
