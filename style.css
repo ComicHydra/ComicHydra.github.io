@@ -36,3 +36,13 @@ section{width: 85%; float: left;}
 #vertnav{list-style: none; margin: 0; padding: 10px;background-color: lightgrey;}
 #navvert{padding: 10px;}
 #lia:hover{background-color: grey;}
+.transform{background-color: lightblue; width: 100px; height: 100px; text-align: center; margin: 75px; }
+#rounded{border-radius: 20px;}
+#rotation{transform:rotate(135deg);}
+#scale{transform: scale(2,2);}
+#skewX{transform: skewX(15deg);}
+#skewY{transform: skewY(40deg);}
+#threeDX{transform: rotateX(45deg);}
+#threeDY{transform: rotateY(225deg);}
+#shadow{box-shadow: 10px 10px 5px gray;}
+#translate{transform:translate(100px, 200px);}
