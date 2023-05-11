@@ -1,0 +1,26 @@
+body{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+header{text-align: center; font-size: 250%; background-color: white; padding: 7px;}
+nav{text-align: center; padding: 15px; font-size: 125%; background-color: red;}
+a{padding: 10px; color: blue;}
+#div{width: 47.5%; float: left; padding: 10px;}
+#notStarter{background-color: #F2D99B;}
+#Dessert{background-color: #E1B462;}
+#Main{background-color: #F7D97E;}
+img{width: auto; height: 400px;}
+#notFooter{width: 100%; overflow: hidden; font-size: 175%; text-align: center; background-color: white;}
+/*.Footer{text-align: center; font-size: 175%; bottom: 0; height: 75px; display:block; border:solid black 1px; width:100%; position: absolute; bottom: 0;}
+.Image, .Writing{float: left; border:1px solid red; }
+.Writing {width:60%;}
+.Image {width:20%;}
+.Image::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.Content { width: 100%;}
+
+@media screen and (max-width: 600px) {
+    .Content.Writing, .Content.Image {
+      width: 100%;
+    }
+  }*/

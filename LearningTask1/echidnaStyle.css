@@ -1,0 +1,16 @@
+body{background-color: #522614; color: #092629; font-family: Arial, Helvetica, sans-serif;}
+header{font-size: 300%; text-align: center; background-color: #E5C14B;}
+#nav{text-decoration: none; color: #092629; padding: 5px;}
+#nav:hover{background-color: #E15500;}
+nav{text-align: center; font-size: 150%; padding: 5px; background-color: #E6AB09; position: relative; top: 10px;}
+#wiki{color: #092629;}
+Footer{text-align: center; background-color: #E5C14B; padding: 10px; font-size: 150%; position: relative;}
+p{color: white;}
+h2{color: white;}
+table{color: white; border-collapse: collapse; margin: auto; border: hidden}
+th, td{border: 1px solid white; padding: 10px;}
+img{width: 350px; height: auto;}
+caption{font-size: 150%; padding: 5px;}
+#indexFooter{top: 390px;}
+#galleryFooter{top: 228px;}
+th{font-size: 120%;}

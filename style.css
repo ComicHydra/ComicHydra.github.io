@@ -46,3 +46,19 @@ section{width: 85%; float: left;}
 #threeDY{transform: rotateY(225deg);}
 #shadow{box-shadow: 10px 10px 5px gray;}
 #translate{transform:translate(100px, 200px);}
+#WH{transition: width 2s, height 2s;}
+#WH:hover{width: 200px; height: 200px;}
+#Background{transition: background-color 2s, color 2s;}
+#Background:hover{background-color: red; color: white;}
+#Shadow{transition: box-shadow 2s;}
+#Shadow:hover{box-shadow: 15px 15px 10px black;}
+#All{transition: width 2s, height 2s, background-color 2s, color 2s, box-shadow 2s;}
+#All:hover{width: 200px; height: 200px; background-color: red; color: white; box-shadow: 15px 15px 10px black;}
+#Anim{position: relative; animation: Anim infinite 2s;}
+@keyframes Anim{
+    0%{left:0px; top:0px; background-color: Blue;}
+	25%{left:0px; top:200px; background-color: Red;}
+	50%{left:200px; top:200px; background-color: Yellow;}
+	75%{left:200px; top:0px; background-color: Green;}
+	100%{left:0px; top:0px; background-color: Yellow;}
+}
